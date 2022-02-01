@@ -1,0 +1,7 @@
+services:
+  specbee_assignment.custom_services:
+    class: Drupal\specbee_assignment\TimezoneService
+    arguments: ['@datetime.time','@date.formatter']
+    
+
+    # arguments: ['@config.factory']

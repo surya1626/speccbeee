@@ -1,0 +1,7 @@
+specbee_assignment.route_admin_settings:
+  path: '/admin/config/specbee_assignment'
+  defaults:
+    _title: 'Assignment Form'
+    _form: '\Drupal\specbee_assignment\Form\AdminSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

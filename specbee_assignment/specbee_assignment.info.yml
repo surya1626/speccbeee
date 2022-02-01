@@ -1,0 +1,5 @@
+name: SpecBee Assignment
+description: A Assignment  module for speccbee
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
